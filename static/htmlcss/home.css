@@ -1,0 +1,181 @@
+* {padding: 0; margin: 0}
+
+body {
+	font-family: arial
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	overflow: hidden;
+	background-color: #ffc400;
+	margin-bottom: 20px;
+	height: 50px;
+
+}
+
+ul {
+	overflow: hidden;
+	list-style-type: none;
+}
+
+li {
+	float: right;
+}
+
+.logo {
+	float: left
+}
+
+.logo img {
+	width: 120px;
+	height: 50px;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.icon img {
+	width: 35px;
+    height: 25px;
+    margin: 0;
+    padding: 10px 0 10px 30px
+}
+
+.top {
+	overflow: hidden;
+}
+
+.top_left {
+	width: 60%;
+	float: left
+}
+
+.top_left img {
+	width: 550px;
+}
+
+.top_right {
+	width: 40%;
+	float: right;
+}
+
+.top_right img {
+	width: 450px;
+	height: 195px
+}
+
+.judul {
+	text-align: center;
+	margin: 20px 0
+}
+
+article {
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+	width: 40%;
+	overflow: hidden;
+}
+
+.left img{
+	width: 380px;
+	margin: 10px 0
+}
+
+.right {
+	float: right;
+	width: 60%;
+	overflow: hidden;
+}
+
+.jenjang a {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: #f43547;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+
+.jenjang a:hover {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: #ffc400;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-left: 20px;
+}
+
+.kategori {
+	vertical-align: middle;
+}
+
+.kategori a{
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: #f43547;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-left: 20px;
+}
+
+.kategori a:hover {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: #ffc400;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-left: 20px;
+}
+
+.tema {
+	padding: 30px;
+	overflow: hidden;
+}
+
+.sosmed {
+	background-color: #ffc400;
+	padding: 30px;
+	border-radius: 30px;
+	color: #f43547;
+	text-align: center;
+	height: 500px;
+	width: 80%;
+	margin: auto
+}
+
+.sosmed img {
+	width: 50px;
+	height: 50px
+}
+
+footer {
+	color: white;
+	background-color: black;
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 20px
+}

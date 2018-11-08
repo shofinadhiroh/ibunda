@@ -1,0 +1,125 @@
+* {padding: 0; margin: 0}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	width: 1000px;
+	margin: auto
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+form {
+	padding: 20px;
+	border: 1px solid grey;
+	margin-bottom: 20px;
+}
+
+.login {
+	width: 50%;
+	margin: auto;
+	
+}
+
+.login h4 {
+	margin-bottom: 10px
+}
+
+.loginb {
+	background-color: #EB6864;
+	color: white
+}
+
+.registerb {
+	background-color: #22B24C;
+	color: white
+}
+
+input {
+	width: 95%;
+	padding: 10px;
+	border-radius: 2px;
+	margin-bottom: 10px
+}
+
+.tombol {
+	width: 105%;
+	margin: auto
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+	font-weight: bold
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+footer {
+	width: 100%;
+	background-color: #EEEEEE;
+	padding: 20px
+}
+
+article {
+	overflow: hidden
+}
+
+.left {
+	float: left;
+	width: 70%
+}
+
+.right {
+	float: right;
+	width: 30%
+}
